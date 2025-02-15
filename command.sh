@@ -2,7 +2,8 @@
 INSTALL HOMEBREW
 ==========================================================
 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" # https://brew.sh/
 
 ==========================================================
     INSTAL OH MY ZCH
@@ -33,6 +34,7 @@ composer global require laravel/valet
     ADD PATH COMPOSER AT BASH PROFILE
 ==========================================================
 
+# https://getcomposer.org/download/
 
 sudo nano ~/.bash_profile
 
